@@ -10,3 +10,5 @@ jobs:
       - uses: actions/checkout@v4
       - name: Run Python script
         run: python job.py
+      - name: Run moyenne.py
+        run: tests/test_moyenne.py
